@@ -33,7 +33,7 @@ ORDER by characterName");
     
     </select>
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" name="manage" class="btn btn-default form-control" value="Gérer le compte">
+    <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Gérer le compte">
 </form>
 
 <?php require_once("../html/footer.php");
