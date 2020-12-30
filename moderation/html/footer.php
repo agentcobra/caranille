@@ -1,5 +1,5 @@
-            </div>
-        </div>
+			</div>
+		</main>
 
         <?php
             //On récupère une seconde fois le temps Unix actuel
@@ -13,8 +13,6 @@
             echo "<center>Caranille : $version</center>";
         ?>
 
-        <script src="../../js/jquery-3.3.1.min.js"></script>
-        <script src="../../js/popper.min.js"></script>
         <script src="../../js/bootstrap.min.js"></script>
     </body>
 </html>

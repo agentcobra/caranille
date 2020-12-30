@@ -35,6 +35,5 @@ if (empty($_SESSION['token']))
 			</button>
 		</nav>
 
-		<!-- Main jumbotron for a primary marketing message or call to action -->
-		<div class="container">
-			<div class="jumbotron">
+		<main class="container">
+		  <div class="bg-light p-5 rounded">

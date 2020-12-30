@@ -1,5 +1,5 @@
-            </div>
-        </div>
+			</div>
+		</main>
 
         <?php
             //On récupère une seconde fois le temps Unix actuel
