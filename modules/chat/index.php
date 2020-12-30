@@ -110,17 +110,17 @@ $chatQuery->closeCursor();
 <form method="POST" action="sendMessage.php">
     <input type="text" class="form-control" placeholder="message" name="chatMessage" required>
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="sendMessage" value="Envoyer le message">
+    <input type="submit" class="btn btn-secondary btn-lg" name="sendMessage" value="Envoyer le message">
 </form>
 
 <hr>
 
 <form method="POST" action="index.php">
-    <input type="submit" class="btn btn-default form-control" name="refreshChat" value="Actualiser le chat">
+    <input type="submit" class="btn btn-secondary btn-lg" name="refreshChat" value="Actualiser le chat">
 </form>
 <form method="POST" action="showAllMessages.php">
 	<input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="showAllMessages" value="Afficher tous les messages">
+    <input type="submit" class="btn btn-secondary btn-lg" name="showAllMessages" value="Afficher tous les messages">
 </form>
  
 <?php
@@ -131,7 +131,7 @@ if ($accountAccess >= 1)
     
     <form method="POST" action="clearChat.php">
     	<input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" class="btn btn-default form-control" name="clearChat" value="Vider le chat">
+        <input type="submit" class="btn btn-secondary btn-lg" name="clearChat" value="Vider le chat">
     </form>
     
     <?php

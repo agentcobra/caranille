@@ -59,13 +59,13 @@ if (isset($_POST['adminItemId'])
                 <form method="POST" action="editParchment.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminItemId" value="<?php echo $adminItemId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier le parchemin">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="edit" value="Afficher/Modifier le parchemin">
                 </form>
 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php

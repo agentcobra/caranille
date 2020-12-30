@@ -53,18 +53,18 @@ if (isset($_POST['adminShopId'])
                 <form method="POST" action="editShop.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminShopId" value="<?php echo $adminShopId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier le magasin">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="edit" value="Afficher/Modifier le magasin">
                 </form>
                 <form method="POST" action="../shopsItems/manageShopItem.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminShopItemShopId" value="<?php echo $adminShopId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="manage" value="Article(s) du magasin">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Article(s) du magasin">
                 </form>
                 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php

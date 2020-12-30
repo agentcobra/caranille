@@ -86,7 +86,7 @@ $notificationQuery->closeCursor();
 <hr>
 
 <form method="POST" action="index.php">
-    <input type="submit" class="btn btn-default form-control" name="showAllMessages" value="Retour">
+    <input type="submit" class="btn btn-secondary btn-lg" name="showAllMessages" value="Retour">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

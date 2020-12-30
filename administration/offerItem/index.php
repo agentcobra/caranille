@@ -59,7 +59,7 @@ require_once("../html/header.php");
     
     </select>
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="offerItem" value="Offrir cet objet">
+    <input type="submit" class="btn btn-secondary btn-lg" name="offerItem" value="Offrir cet objet">
 </form>
 
 <?php require_once("../html/footer.php");

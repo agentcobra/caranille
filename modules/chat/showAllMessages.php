@@ -98,7 +98,7 @@ if (isset($_POST['token'])
 	                            <form method="POST" action="deleteMessage.php">
 	                                <input type="hidden" name="chatMessageId" value="<?php echo $chatMessageId ?>">
 									<input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-	                                <input type="submit" class="btn btn-default form-control" name="deleteMessage" value="X">
+	                                <input type="submit" class="btn btn-secondary btn-lg" name="deleteMessage" value="X">
 	                            </form>
 	                        </td>
 	                        
@@ -120,7 +120,7 @@ if (isset($_POST['token'])
 	    ?>
 	    
 	    <form method="POST" action="index.php">
-	        <input type="submit" class="btn btn-default form-control" name="showAllMessage" value="Retour">
+	        <input type="submit" class="btn btn-secondary btn-lg" name="showAllMessage" value="Retour">
 	    </form>
 	    
 	    <?php

@@ -66,13 +66,13 @@ if (isset($_POST['modoAccountId'])
                         <input type="hidden" class="btn btn-default form-control" name="modoAccountId" value="<?php echo $modoAccountId ?>">
                         <input type="hidden" class="btn btn-default form-control" name="modoBanReason" value="<?php echo $modoBanReason ?>">
                         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" class="btn btn-default form-control" name="banEnd" value="Je confirme le banissement">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="banEnd" value="Je confirme le banissement">
                     </form>
                     
                     <hr>
     
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                     </form>
                     
                     <?php
@@ -90,7 +90,7 @@ if (isset($_POST['modoAccountId'])
                     <hr>
     
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                     </form>
                     
                     <?php

@@ -264,7 +264,7 @@ if (isset($_POST['marketId'])
                             <form method="POST" action="buyOffer.php">
                                 <input type="hidden" class="btn btn-default form-control" name="marketId" value="<?php echo $marketId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                <input type="submit" class="btn btn-default form-control" name="buyOffer" value="Acheter">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="buyOffer" value="Acheter">
                             </form>
                         </td>
                     </tr>

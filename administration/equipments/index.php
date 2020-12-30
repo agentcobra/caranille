@@ -61,7 +61,7 @@ else
 
 <form method="POST" action="addEquipment.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="add" value="Créer un équipement">
+    <input type="submit" class="btn btn-secondary btn-lg" name="add" value="Créer un équipement">
 </form>
 
 <?php require_once("../html/footer.php");

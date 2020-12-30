@@ -209,7 +209,7 @@ if (isset($_POST['token'])
                         <hr>
                         
                         <form method="POST" action="rewards.php">
-                            <input type="submit" class="btn btn-default form-control" name="escape" value="Continuer"><br />
+                            <input type="submit" class="btn btn-secondary btn-lg" name="escape" value="Continuer"><br />
                         </form>
                         
                         <?php
@@ -223,7 +223,7 @@ if (isset($_POST['token'])
                         <hr>
                 
                         <form method="POST" action="index.php">
-                            <input type="submit" class="btn btn-default form-control" name="magic" value="Continuer"><br>
+                            <input type="submit" class="btn btn-secondary btn-lg" name="magic" value="Continuer"><br>
                         </form>
                         
                         <?php

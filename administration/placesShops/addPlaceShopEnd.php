@@ -79,7 +79,7 @@ if (isset($_POST['adminplaceShopPlaceId'])
                         <form method="POST" action="managePlaceShop.php">
                             <input type="hidden" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" name="manage" value="Continuer">
+                            <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Continuer">
                         </form>
                         
                         <?php
@@ -94,7 +94,7 @@ if (isset($_POST['adminplaceShopPlaceId'])
                         <form method="POST" action="managePlaceShop.php">
                             <input type="hidden" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" name="manage" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Retour">
                         </form>
                         
                         <?php

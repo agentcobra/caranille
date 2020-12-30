@@ -196,7 +196,7 @@ if (isset($_POST['privateConversationId'])
                     Message : <input type="text" name="privateConversationMessage" class="form-control" placeholder="Message" required>
                     <input type="hidden" name="privateConversationId" value="<?php echo $privateConversationId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="sendMessage" value="Envoyer">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="sendMessage" value="Envoyer">
                 </form>
 
                 <hr>
@@ -204,13 +204,13 @@ if (isset($_POST['privateConversationId'])
                 <form method="POST" action="showAllConversation.php">
                     <input type="hidden" name="privateConversationId" value="<?php echo $privateConversationId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="showAllConversation" value="Afficher toute la conversation">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="showAllConversation" value="Afficher toute la conversation">
                 </form>
 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="showConversation" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="showConversation" value="Retour">
                 </form>
                 
                 <?php

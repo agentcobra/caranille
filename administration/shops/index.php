@@ -52,7 +52,7 @@ $shopQuery->closeCursor();
 
 <form method="POST" action="addShop.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="add" value="Créer un magasin">
+    <input type="submit" class="btn btn-secondary btn-lg" name="add" value="Créer un magasin">
 </form>
 
 <?php require_once("../html/footer.php");

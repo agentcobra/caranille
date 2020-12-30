@@ -75,13 +75,13 @@ if (isset($_POST['marketId'])
                 <form method="POST" action="buyOfferEnd.php">
                     <input type="hidden" class="btn btn-default form-control" name="marketId" value="<?php echo $marketId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="finalBuy" value="Je confirme">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="finalBuy" value="Je confirme">
                 </form>
 
                 <hr>
 
                 <form method="POST" action="index.php">
-                   <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                   <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php

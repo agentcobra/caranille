@@ -49,13 +49,13 @@ if (isset($_POST['adminCharacterId'])
                     <input type="hidden" class="btn btn-default form-control" name="adminCharacterId" value="<?php echo $adminCharacterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="adminOfferExperience" value="<?php echo $adminOfferExperience ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="finalDelete" value="Je confirme">
                 </form>
                 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php
@@ -90,13 +90,13 @@ if (isset($_POST['adminCharacterId'])
                         <input type="hidden" class="btn btn-default form-control" name="adminCharacterId" value="<?php echo $adminCharacterId ?>">
                         <input type="hidden" class="btn btn-default form-control" name="adminOfferExperience" value="<?php echo $adminOfferExperience ?>">
                         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="finalDelete" value="Je confirme">
                     </form>
                     
                     <hr>
         
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                     </form>
                 
                     <?php

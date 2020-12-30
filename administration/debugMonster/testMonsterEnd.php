@@ -54,7 +54,7 @@ if (isset($_POST['adminMonsterId'])
                     <hr>
                         
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" name="back" value="retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="retour">
                     </form>
                     
                     <?php
@@ -82,7 +82,7 @@ if (isset($_POST['adminMonsterId'])
                     <hr>
                         
                     <form method="POST" action="../../modules/battle/index.php">
-                        <input type="submit" class="btn btn-default form-control" name="continue" value="continuer">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="continue" value="continuer">
                     </form>
                     
                     <?php

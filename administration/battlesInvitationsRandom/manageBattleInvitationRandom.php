@@ -78,13 +78,13 @@ if (isset($_POST['battleInvitationId'])
                 <form method="POST" action="deleteBattleInvitationRandom.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminBattleInvitationId" value="<?php echo $adminBattleInvitationId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="delete" value="Supprimer l'invitation">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="delete" value="Supprimer l'invitation">
                 </form>
                 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php

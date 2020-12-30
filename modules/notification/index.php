@@ -87,7 +87,7 @@ $notificationQuery->closeCursor();
 <hr>
 
 <form method="POST" action="showNotifications.php">
-    <input type="submit" class="btn btn-default form-control" name="showAllMessages" value="Afficher toutes les notifications">
+    <input type="submit" class="btn btn-secondary btn-lg" name="showAllMessages" value="Afficher toutes les notifications">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

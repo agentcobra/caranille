@@ -210,7 +210,7 @@ if (isset($_POST['marketItemId'])
                     <hr>
 
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" value="Retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" value="Retour">
                     </form>
                     
                     <?php

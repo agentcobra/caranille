@@ -15,7 +15,7 @@ Recevoir un nouveau mot de passe par Email
     Nom de votre personnage : <input type="text" class="form-control" name="accountPseudo" maxlength="15" required>
     Email : <input type="email" class="form-control" name="accountEmail" required>
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="continue" value="Recevoir un nouveau mot de passe">
+    <input type="submit" class="btn btn-secondary btn-lg" name="continue" value="Recevoir un nouveau mot de passe">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

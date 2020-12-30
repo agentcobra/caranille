@@ -16,23 +16,23 @@ Ici vous allez pouvoir proposer ou reçevoir des demandes d'échanges des joueur
 
 <form method="POST" action="tradeRequestSent.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="viewTrade" value="Demandes d'échange envoyée">
+    <input type="submit" class="btn btn-secondary btn-lg" name="viewTrade" value="Demandes d'échange envoyée">
 </form>
 
 <form method="POST" action="tradeRequestReceived.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="viewTrade" value="Demandes d'échange reçue">
+    <input type="submit" class="btn btn-secondary btn-lg" name="viewTrade" value="Demandes d'échange reçue">
 </form>
 
 <form method="POST" action="tradeRequest.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="newTrade" value="Nouvelle demande d'échange">
+    <input type="submit" class="btn btn-secondary btn-lg" name="newTrade" value="Nouvelle demande d'échange">
 </form>
 
 <hr>
 
 <form method="POST" action="../../modules/trade/index.php">
-    <input type="submit" class="btn btn-default form-control" name="manage" value="Echanges en cours">
+    <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Echanges en cours">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

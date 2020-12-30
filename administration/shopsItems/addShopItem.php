@@ -98,13 +98,13 @@ if (isset($_POST['adminShopItemShopId'])
                                 <input type="hidden" class="btn btn-default form-control" name="adminShopItemItemId" value="<?php echo $adminShopItemItemId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="adminShopItemDiscount" value="<?php echo $adminShopItemDiscount ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                <input type="submit" class="btn btn-default form-control" name="finalAdd" value="Je confirme">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="finalAdd" value="Je confirme">
                             </form>
                             
                             <hr>
 
                             <form method="POST" action="index.php">
-                                <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                             </form>
                             
                             <?php
@@ -119,7 +119,7 @@ if (isset($_POST['adminShopItemShopId'])
                             <form method="POST" action="manageShopItem.php">
                                 <input type="hidden" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                <input type="submit" class="btn btn-default form-control" name="manage" value="Retour">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Retour">
                             </form>
                             
                             <?php
@@ -150,7 +150,7 @@ if (isset($_POST['adminShopItemShopId'])
                 <form method="POST" action="manageShopItem.php">
                     <input type="hidden" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="manage" value="Continuer">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Continuer">
                 </form>
                 
                 <?php

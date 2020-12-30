@@ -92,13 +92,13 @@ if (isset($_POST['adminplaceMonsterPlaceId'])
                             <input type="hidden" class="btn btn-default form-control" name="adminplaceMonsterPlaceId" value="<?php echo $adminplaceMonsterPlaceId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="adminplaceMonsterMonsterId" value="<?php echo $adminplaceMonsterMonsterId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" name="finalAdd" value="Je confirme">
+                            <input type="submit" class="btn btn-secondary btn-lg" name="finalAdd" value="Je confirme">
                         </form>
                         
                         <hr>
 
                         <form method="POST" action="index.php">
-                            <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                         </form>
                         
                         <?php
@@ -113,7 +113,7 @@ if (isset($_POST['adminplaceMonsterPlaceId'])
                         <form method="POST" action="managePlaceMonster.php">
                             <input type="hidden" name="adminplaceMonsterPlaceId" value="<?php echo $adminplaceMonsterPlaceId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" name="manage" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Retour">
                         </form>
                         
                         <?php

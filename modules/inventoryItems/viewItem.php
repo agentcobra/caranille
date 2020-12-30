@@ -158,13 +158,13 @@ if (isset($_POST['itemId'])
                                     <form method="POST" action="useItem.php">
                                         <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
                                         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                        <input type="submit" class="btn btn-default form-control" name="use" value="Utiliser">
+                                        <input type="submit" class="btn btn-secondary btn-lg" name="use" value="Utiliser">
                                     </form>
                                     <form method="POST" action="../../modules/inventory/sale.php">
                                         Quantité à vendre : <input type="number" name="saleQuantity" value="1" class="form-control" required>
                                         <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
                                         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                        <input type="submit" class="btn btn-default form-control" name="sale" value="Vendre">
+                                        <input type="submit" class="btn btn-secondary btn-lg" name="sale" value="Vendre">
                                     </form>
                                 </td>
                             </tr>
@@ -174,7 +174,7 @@ if (isset($_POST['itemId'])
             
                         <form method="POST" action="index.php">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" value="Retour">
                         </form>
                         
                         <?php

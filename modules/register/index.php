@@ -43,7 +43,7 @@ require_once("../../html/header.php");
     <iframe src="../../CGU.txt" width="100%" height="100%"></iframe>
     En vous inscrivant vous acceptez le présent règlement !
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="register" value="Je créer mon compte">
+    <input type="submit" class="btn btn-secondary btn-lg" name="register" value="Je créer mon compte">
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

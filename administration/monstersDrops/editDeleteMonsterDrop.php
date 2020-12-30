@@ -144,7 +144,7 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                                 <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                <input type="submit" class="btn btn-default form-control" name="finalEdit" value="Mettre à jour">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="finalEdit" value="Mettre à jour">
                             </form>
                             
                             <?php
@@ -165,13 +165,13 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                                 <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
                                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="finalDelete" value="Je confirme">
                             </form>
                     
                             <hr>
 
                             <form method="POST" action="index.php">
-                                <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                             </form>
                             
                             <?php

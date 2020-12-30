@@ -70,7 +70,7 @@ Générer X montre(s) vierge.
 <form method="POST" action="generateMonster.php">
     Quantité : <input type="number" name="adminQuantityMonsterGenerate" class="form-control" placeholder="Quantité" value="1" required>
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="generate" value="Générer le(s) monstre(s)">
+    <input type="submit" class="btn btn-secondary btn-lg" name="generate" value="Générer le(s) monstre(s)">
 </form>
 
 <?php require_once("../html/footer.php");

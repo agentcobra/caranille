@@ -26,14 +26,14 @@ MP de <?php echo $opponentName ?> : <?php echo "$battleOpponentMpRemaining/$oppo
 
 <form method="POST" action="physicalAttack.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="attack" value="Attaque physique"><br>
+    <input type="submit" class="btn btn-secondary btn-lg" name="attack" value="Attaque physique"><br>
 </form>
 
 <hr>
 
 <form method="POST" action="magicAttack.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="magic" value="Attaque magique (<?php echo $mpNeed; ?> MP)"><br>
+    <input type="submit" class="btn btn-secondary btn-lg" name="magic" value="Attaque magique (<?php echo $mpNeed; ?> MP)"><br>
 </form>
 
 <hr>
@@ -72,7 +72,7 @@ if ($itemRow > 0)
             
         </select>
         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-        <input type="submit" class="btn btn-default form-control" name="useItem" value="Utiliser">
+        <input type="submit" class="btn btn-secondary btn-lg" name="useItem" value="Utiliser">
     </form>
     
     <?php
@@ -88,7 +88,7 @@ $itemQuery->closeCursor();
 
 <form method="POST" action="escape.php">
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="escape" value="Abandonner"><br />
+    <input type="submit" class="btn btn-secondary btn-lg" name="escape" value="Abandonner"><br />
 </form>
 
 <?php require_once("../../html/footer.php"); ?>

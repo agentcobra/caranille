@@ -307,7 +307,7 @@ if (isset($_POST['accountPseudo'])
                                     <hr>
             
                                     <form method="POST" action="../../../index.php">
-                                        <input type="submit" class="btn btn-default form-control" name="back" value="Commencer">
+                                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Commencer">
                                     </form>
                                     
                                     <?php

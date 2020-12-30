@@ -61,14 +61,14 @@ if (isset($_POST['itemId'])
                 <form method="POST" action="useItemEnd.php">
                     <input type="hidden" class="btn btn-default form-control" name="itemId" value="<?php echo $itemId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="useFinal" value="Je confirme">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="useFinal" value="Je confirme">
                 </form>
     
                 <hr>
     
                 <form method="POST" action="index.php">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php

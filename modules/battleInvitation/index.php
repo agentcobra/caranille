@@ -41,7 +41,7 @@ if ($battleInvitationRow > 0)
             ?>
         
         </select>
-        <input type="submit" class="btn btn-default form-control" name="open" value="Ouvrir l'invitation">
+        <input type="submit" class="btn btn-secondary btn-lg" name="open" value="Ouvrir l'invitation">
     </form>
     
     <?php

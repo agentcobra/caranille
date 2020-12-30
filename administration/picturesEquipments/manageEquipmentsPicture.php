@@ -31,7 +31,7 @@ if (isset($_POST['token'])
         <hr>
 
         <form method="POST" action="index.php">
-            <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+            <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
         </form>
         
         <?php
@@ -74,13 +74,13 @@ else if (isset($_POST['token'])
             <form method="POST" action="deleteEquipmentPicture.php">
                 <input type="hidden" class="btn btn-default form-control" name="pictureFile" value="<?php echo $adminFile ?>">
                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme la suppression">
+                <input type="submit" class="btn btn-secondary btn-lg" name="finalDelete" value="Je confirme la suppression">
             </form>
             
             <hr>
         
             <form method="POST" action="index.php">
-                <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
             </form>
         
             <?php
@@ -94,7 +94,7 @@ else if (isset($_POST['token'])
             <hr>
         
             <form method="POST" action="index.php">
-                <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
             </form>
 
             <?php

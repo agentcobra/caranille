@@ -27,13 +27,13 @@ if (isset($_POST['token'])
             Nouveau mot de passe : <input type="password" class="form-control" name="newPassword" required>
             Confirmez : <input type="password" class="form-control" name="confirmNewPassword" required>
             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-            <input type="submit" class="btn btn-default form-control" name="changePasswordEnd" value="Modifier le mot de passe">
+            <input type="submit" class="btn btn-secondary btn-lg" name="changePasswordEnd" value="Modifier le mot de passe">
         </form>
             
         <hr>
     
         <form method="POST" action="index.php">
-            <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+            <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
         </form>
         
         <?php

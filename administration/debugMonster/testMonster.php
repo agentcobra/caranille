@@ -57,7 +57,7 @@ if (isset($_POST['adminMonsterId'])
                     <hr>
                         
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" name="back" value="retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="retour">
                     </form>
                     
                     <?php
@@ -76,13 +76,13 @@ if (isset($_POST['adminMonsterId'])
                     <form method="POST" action="testMonsterEnd.php">
                         <input type="hidden" class="btn btn-default form-control" name="adminMonsterId" value="<?php echo $adminMonsterId ?>">
                         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                        <input type="submit" class="btn btn-default form-control" name="finalTest" value="Je confirme">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="finalTest" value="Je confirme">
                     </form>
                     
                     <hr>
             
                     <form method="POST" action="index.php">
-                        <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                        <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                     </form>
                     
                     <?php

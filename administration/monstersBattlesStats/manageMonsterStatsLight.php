@@ -81,7 +81,7 @@ if (isset($_POST['adminMonsterStatsMonsterId'])
                 <form method="POST" action="../monstersBattlesStats/manageMonsterStatsLaunchBattle.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterStatsMonsterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="viewStats" value="Statistiques complète">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="viewStats" value="Statistiques complète">
                 </form>
                 
                 <hr>
@@ -122,7 +122,7 @@ if (isset($_POST['adminMonsterStatsMonsterId'])
                 <form method="POST" action="../monstersBattlesStats/manageMonsterStatsDrawBattle.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterStatsMonsterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="viewStats" value="Statistiques complète">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="viewStats" value="Statistiques complète">
                 </form>
 
                 <hr>
@@ -163,7 +163,7 @@ if (isset($_POST['adminMonsterStatsMonsterId'])
                 <form method="POST" action="../monstersBattlesStats/manageMonsterStatsVictoryBattle.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterStatsMonsterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="viewStats" value="Statistiques complète">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="viewStats" value="Statistiques complète">
                 </form>
 
                 <hr>
@@ -204,7 +204,7 @@ if (isset($_POST['adminMonsterStatsMonsterId'])
                 <form method="POST" action="../monstersBattlesStats/manageMonsterStatsDefeatedBattle.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterStatsMonsterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="viewStats" value="Statistiques complète">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="viewStats" value="Statistiques complète">
                 </form>
 
                 <hr>
@@ -246,7 +246,7 @@ if (isset($_POST['adminMonsterStatsMonsterId'])
                 <form method="POST" action="../monstersBattlesStats/manageMonsterStatsEscapeBattle.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterStatsMonsterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="viewStats" value="Statistiques complète">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="viewStats" value="Statistiques complète">
                 </form>
 
                 <?php

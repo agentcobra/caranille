@@ -233,7 +233,7 @@ if (isset($_POST['tradeId'])
                             <hr>
                 
                             <form method="POST" action="index.php">
-                                <input type="submit" class="btn btn-default form-control" name="manage" value="Retour">
+                                <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Retour">
                             </form>
                             
                             <?php

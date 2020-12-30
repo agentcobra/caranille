@@ -149,7 +149,7 @@ if (isset($_POST['buyQuantity'])
                         <form method="POST" action="selectedShop.php">
                             <input type="hidden" name="shopId" value="<?php echo $shopId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" value="Retour">
                         </form>
                         
                         <?php
@@ -165,7 +165,7 @@ if (isset($_POST['buyQuantity'])
                         <form method="POST" action="selectedShop.php">
                             <input type="hidden" name="shopId" value="<?php echo $shopId ?>">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                         </form>
                         
                         <?php

@@ -53,13 +53,13 @@ if (isset($_POST['adminNewsId'])
                 <form method="POST" action="editNews.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminNewsId" value="<?php echo $adminNewsId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier la news">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="edit" value="Afficher/Modifier la news">
                 </form>
                 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
                 
                 <?php

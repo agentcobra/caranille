@@ -58,13 +58,13 @@ if (isset($_POST['battleInvitationCharacterId'])
                 
             <form method="POST" action="launchInvitationEnd.php">
                 <input type="hidden" class="btn btn-default form-control" name="battleInvitationCharacterId" value="<?php echo $battleInvitationCharacterId ?>">
-                <input type="submit" class="btn btn-default form-control" name="launch" value="Lancer le combat">
+                <input type="submit" class="btn btn-secondary btn-lg" name="launch" value="Lancer le combat">
             </form>
             
             <hr>
 
             <form method="POST" action="index.php">
-                <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
             </form>
             
             <?php

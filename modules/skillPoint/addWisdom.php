@@ -34,13 +34,13 @@ if (isset($_POST['token'])
                 
             <form method="POST" action="addWisdomEnd.php">
                 <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                <input type="submit" class="btn btn-default form-control" name="finalAddWisdom" value="Je confirme">
+                <input type="submit" class="btn btn-secondary btn-lg" name="finalAddWisdom" value="Je confirme">
             </form>
             
             <hr>
                 
             <form method="POST" action="index.php">
-                <input type="submit" class="btn btn-default form-control" value="Retour">
+                <input type="submit" class="btn btn-secondary btn-lg" value="Retour">
             </form>
             
             <?php
@@ -55,7 +55,7 @@ if (isset($_POST['token'])
             <hr>
             
             <form method="POST" action="index.php">
-                <input type="submit" class="btn btn-default form-control" value="Retour">
+                <input type="submit" class="btn btn-secondary btn-lg" value="Retour">
             </form>
 
             <?php

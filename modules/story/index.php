@@ -37,7 +37,7 @@ if ($chapterRow == 1)
 	<hr>
 	
     <form method="POST" action="launchStory.php">
-        <input type="submit" class="btn btn-default form-control" name="continue" value="Continuer">
+        <input type="submit" class="btn btn-secondary btn-lg" name="continue" value="Continuer">
     </form>
     
 	<?php

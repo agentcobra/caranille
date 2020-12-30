@@ -272,7 +272,7 @@ if (isset($_POST['itemId'])
                                                 <form method="POST" action="equip.php">
                                                     <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
                                                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                                    <input type="submit" class="btn btn-default form-control" name="equip" value="Equiper">
+                                                    <input type="submit" class="btn btn-secondary btn-lg" name="equip" value="Equiper">
                                                 </form> 
                                                     
                                                 <?php
@@ -299,7 +299,7 @@ if (isset($_POST['itemId'])
                                         <form method="POST" action="unEquip.php">
                                             <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
                                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                            <input type="submit" class="btn btn-default form-control" name="unEquip" value="Déséquiper">
+                                            <input type="submit" class="btn btn-secondary btn-lg" name="unEquip" value="Déséquiper">
                                         </form>
                                             
                                         <?php
@@ -310,7 +310,7 @@ if (isset($_POST['itemId'])
                                         Quantité à vendre : <input type="number" name="saleQuantity" value="1" class="form-control" required>
                                         <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
                                         <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                                        <input type="submit" class="btn btn-default form-control" name="sale" value="Vendre">
+                                        <input type="submit" class="btn btn-secondary btn-lg" name="sale" value="Vendre">
                                     </form>
                                 </td>
                             </tr>
@@ -320,7 +320,7 @@ if (isset($_POST['itemId'])
             
                         <form method="POST" action="index.php">
                             <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                            <input type="submit" class="btn btn-default form-control" value="Retour">
+                            <input type="submit" class="btn btn-secondary btn-lg" value="Retour">
                         </form>
                         
                         <?php

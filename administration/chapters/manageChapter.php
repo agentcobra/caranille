@@ -55,13 +55,13 @@ if (isset($_POST['adminChapterId'])
                 <form method="POST" action="editChapter.php">
                     <input type="hidden" class="btn btn-default form-control" name="adminChapterId" value="<?php echo $adminChapterId ?>">
                     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-                    <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier le chapitre">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="edit" value="Afficher/Modifier le chapitre">
                 </form>
                 
                 <hr>
 
                 <form method="POST" action="index.php">
-                    <input type="submit" class="btn btn-default form-control" name="back" value="Retour">
+                    <input type="submit" class="btn btn-secondary btn-lg" name="back" value="Retour">
                 </form>
 
                 <?php

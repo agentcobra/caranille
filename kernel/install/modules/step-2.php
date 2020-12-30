@@ -9,7 +9,7 @@
     Mot de passe : <input type="password" class="form-control" name="databasePassword">
     Port (3306 par défaut) : <input type="number" class="form-control" name="databasePort" value="3306" required>
     <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
-    <input type="submit" class="btn btn-default form-control" name="install" value="Continuer">
+    <input type="submit" class="btn btn-secondary btn-lg" name="install" value="Continuer">
 </form>
 
 <?php require_once("../html/footer.php"); ?>
