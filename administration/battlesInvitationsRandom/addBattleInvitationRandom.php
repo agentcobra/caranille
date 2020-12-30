@@ -58,7 +58,7 @@ if (isset($_POST['token'])
 				Description : <br> <textarea class="form-control" name="adminBattleInvitationDescription" id="adminBattleInvitationDescription" rows="3"></textarea>
 				Taux d'obtention (en %) (Déjà vaincu) : <input type="nulber" name="adminBattleInvitationeRateOld" class="form-control" placeholder="Taux d'obtention invitation (en %)" value="0" required>
 				Taux d'obtention (en %) (Jamais vaincu) : <input type="nulber" name="adminBattleInvitationeRateNew" class="form-control" placeholder="Taux d'obtention invitation (en %)" value="0" required>
-				<input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+				<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
 				<input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
 			</form>
 			

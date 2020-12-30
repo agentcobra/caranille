@@ -76,8 +76,8 @@ if (isset($_POST['battleInvitationId'])
                 <hr>
                     
                 <form method="POST" action="deleteBattleInvitationNominative.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminBattleInvitationId" value="<?php echo $adminBattleInvitationId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminBattleInvitationId" value="<?php echo $adminBattleInvitationId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="delete" value="Supprimer l'invitation">
                 </form>
                 

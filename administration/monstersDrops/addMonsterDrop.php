@@ -99,12 +99,12 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                             <hr>
                                 
                             <form method="POST" action="addMonsterDropEnd.php">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropItemVisible" value="<?php echo $adminMonsterDropItemVisible ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropRate" value="<?php echo $adminMonsterDropRate ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropRateVisible" value="<?php echo $adminMonsterDropRateVisible ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropItemVisible" value="<?php echo $adminMonsterDropItemVisible ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropRate" value="<?php echo $adminMonsterDropRate ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropRateVisible" value="<?php echo $adminMonsterDropRateVisible ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-secondary btn-lg" name="finalAdd" value="Je confirme">
                             </form>
                             
@@ -125,7 +125,7 @@ if (isset($_POST['adminMonsterDropMonsterId'])
 
                             <form method="POST" action="manageMonsterDrop.php">
                                 <input type="hidden" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Retour">
                             </form>
                             
@@ -155,7 +155,7 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                 Erreur : Le taux d'obtention doit être entre 0 et 1000/1000
                 <form method="POST" action="manageMonsterDrop.php">
                     <input type="hidden" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="manage" value="Continuer">
                 </form>
                 

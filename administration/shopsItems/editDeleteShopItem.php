@@ -86,9 +86,9 @@ if (isset($_POST['token'])
                             
                             <form method="POST" action="editShopItem.php">
                                 Réduction (de 0 à 100%) : <input type="number" name="adminShopItemDiscount" class="form-control" placeholder="Réduction (de 0 à 100%)" value="<?php echo $adminShopItemDiscount ?>" required>
-                                <input type="hidden" class="btn btn-default form-control" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminShopItemItemId" value="<?php echo $adminShopItemItemId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminShopItemItemId" value="<?php echo $adminShopItemItemId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-secondary btn-lg" name="finalEdit" value="Mettre à jour">
                             </form>
                             
@@ -107,9 +107,9 @@ if (isset($_POST['token'])
                             <hr>
                                 
                             <form method="POST" action="deleteShopItem.php">
-                                <input type="hidden" class="btn btn-default form-control" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminShopItemItemId" value="<?php echo $adminShopItemItemId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminShopItemShopId" value="<?php echo $adminShopItemShopId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminShopItemItemId" value="<?php echo $adminShopItemItemId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-secondary btn-lg" name="finalDelete" value="Je confirme">
                             </form>
                     

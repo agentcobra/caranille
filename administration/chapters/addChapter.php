@@ -53,7 +53,7 @@ if (isset($_POST['token'])
                 Titre : <input type="text" name="adminChapterTitle" class="form-control" placeholder="Titre" required>
                 Introduction :  <br> <textarea class="form-control" name="adminChapterOpening" id="adminChapterOpening" rows="3" required></textarea>
                 Conclusion :  <br> <textarea class="form-control" name="adminChapterEnding" id="adminChapterEnding" rows="3" required></textarea>
-                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
             </form>
             

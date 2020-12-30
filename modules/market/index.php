@@ -53,7 +53,7 @@ if ($marketRow > 0)
             ?>
 
         </select>
-        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
         <input type="submit" name="viewAllOffers" class="btn btn-default form-control" value="Afficher les offres">
     </form>
 
@@ -70,7 +70,7 @@ $marketQuery->closeCursor();
 <hr>
 
 <form method="POST" action="newOffer.php">
-    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-secondary btn-lg" name="newOffer" value="Nouvelle offre">
 </form>
 

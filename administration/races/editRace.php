@@ -75,7 +75,7 @@ if (isset($_POST['adminRaceId'])
                     Sagesse par niveau : <input type="number" name="adminRaceWisdomBonus" class="form-control" placeholder="Sagesse par niveau" value="<?php echo $adminRaceWisdomBonus ?>" required>
                     Prospection par niveau : <input type="number" name="adminRaceProspectingBonus" class="form-control" placeholder="Prospection par niveau" value="<?php echo $adminRaceProspectingBonus ?>" required>
                     <input type="hidden" name="adminRaceId" value="<?php echo $adminRaceId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
                 </form>
                 

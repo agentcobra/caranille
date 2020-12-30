@@ -26,7 +26,7 @@ if (isset($_POST['token'])
             Ancien mot de passe : <input type="password" class="form-control" name="oldPassword" required>
             Nouveau mot de passe : <input type="password" class="form-control" name="newPassword" required>
             Confirmez : <input type="password" class="form-control" name="confirmNewPassword" required>
-            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
             <input type="submit" class="btn btn-secondary btn-lg" name="changePasswordEnd" value="Modifier le mot de passe">
         </form>
             

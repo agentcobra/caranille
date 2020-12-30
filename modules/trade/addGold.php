@@ -86,7 +86,7 @@ if (isset($_POST['tradeId'])
                 <form method="POST" action="addGoldEnd.php">
                     Pièces d'or : <input type="number" name="tradeGold" value="0" class="form-control" placeholder="Pièces d'or" required>
                     <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="addGoldEnd" value="Modifier le nombre de pièces d'or">
                 </form>
                 

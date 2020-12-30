@@ -53,7 +53,7 @@ if (isset($_POST['adminItemTypeId'])
                 <form method="POST" action="editItemTypeEnd.php">
                     Type d'objet affiché : <input type="text" name="adminItemTypeNameShow" class="form-control" placeholder="Titre" value="<?php echo $adminItemTypeNameShow ?>" required>
                     <input type="hidden" name="adminItemTypeId" value="<?php echo $adminItemTypeId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
                 </form>
                 

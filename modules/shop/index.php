@@ -40,7 +40,7 @@ if ($shopRow > 0)
             ?>
 
         </select>
-        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
         <input type="submit" name="enter" class="btn btn-default form-control" value="Entrer dans le magasin">
     </form>
     

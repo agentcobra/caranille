@@ -71,9 +71,9 @@ if (isset($_POST['marketItemId'])
                     <hr>
 
                     <form method="POST" action="addOfferEnd.php">
-                        <input type="hidden" class="btn btn-default form-control" name="marketItemId" value="<?php echo $marketItemId ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="marketSalePrice" value="<?php echo $marketSalePrice ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="marketItemId" value="<?php echo $marketItemId ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="marketSalePrice" value="<?php echo $marketSalePrice ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" class="btn btn-secondary btn-lg" name="addOfferEnd" value="Je confirme">
                     </form>
 

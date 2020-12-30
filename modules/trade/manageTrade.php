@@ -190,7 +190,7 @@ if (isset($_POST['tradeId'])
         
                         </select>
                         <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" name="removeItem" class="btn btn-default form-control" value="Retirer l'objet">
                     </form>
                     
@@ -227,13 +227,13 @@ if (isset($_POST['tradeId'])
                 
                 <form method="POST" action="addTradeItem.php">
                     <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="addTradeItem" value="Ajouter un objet">
                 </form>
                 
                 <form method="POST" action="addGold.php">
                     <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="addGold" value="Modifier le nombre de pièces d'or">
                 </form>
                 
@@ -242,13 +242,13 @@ if (isset($_POST['tradeId'])
                 <form method="POST" action="acceptTrade.php">
                     <input type="hidden" name="tradeDate" value="<?php echo $tradeLastUpdate ?>">
                     <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="acceptTrade" value="Accepter l'échange">
                 </form>
                 
                 <form method="POST" action="declineTrade.php">
                     <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-secondary btn-lg" name="declineTrade" value="Refuser l'échange">
                 </form>
                 

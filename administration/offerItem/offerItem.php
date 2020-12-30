@@ -65,9 +65,9 @@ if (isset($_POST['adminCharacterId'])
                     <hr>
                         
                     <form method="POST" action="offerItemEnd.php">
-                        <input type="hidden" class="btn btn-default form-control" name="adminCharacterId" value="<?php echo $adminCharacterId ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="adminItemId" value="<?php echo $adminItemId ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="adminItemQuantity" value="<?php echo $adminItemQuantity ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="adminCharacterId" value="<?php echo $adminCharacterId ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="adminItemId" value="<?php echo $adminItemId ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="adminItemQuantity" value="<?php echo $adminItemQuantity ?>">
                         <input type="submit" class="btn btn-secondary btn-lg" name="finalAdd" value="Je confirme">
                     </form>
                     
@@ -131,10 +131,10 @@ if (isset($_POST['adminCharacterId'])
                         <hr>
                             
                         <form method="POST" action="offerItemEnd.php">
-                            <input type="hidden" class="btn btn-default form-control" name="adminCharacterId" value="<?php echo $adminCharacterId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="adminItemId" value="<?php echo $adminItemId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="adminItemQuantity" value="<?php echo $adminItemQuantity ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminCharacterId" value="<?php echo $adminCharacterId ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminItemId" value="<?php echo $adminItemId ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminItemQuantity" value="<?php echo $adminItemQuantity ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-secondary btn-lg" name="finalAdd" value="Je confirme">
                         </form>
                         
