@@ -147,7 +147,7 @@ if (isset($_POST['adminMonsterId'])
                     </select>
                     Quantité restante (Si monstre limité) : <input type="number" name="adminMonsterQuantity" class="form-control" placeholder="Quantité du monstre" value="<?php echo $adminMonsterQuantity ?>" required>
                     <input type="hidden" name="adminMonsterId" value="<?php echo $adminMonsterId ?>">
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input name="finalEdit" class="btn btn-default form-control" type="submit" value="Modifier">
                 </form>
 

@@ -60,7 +60,7 @@ if (isset($_POST['token']))
                     ?>
                         
                 </select>
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <center><input type="submit" name="viewEquipment" class="btn btn-default form-control" value="Plus d'informations"></center>
             </form>
             
@@ -115,7 +115,7 @@ if (isset($_POST['token']))
                     ?>
                         
                 </select>
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <center><input type="submit" name="viewEquipment" class="btn btn-default form-control" value="Plus d'informations"></center>
             </form>
             

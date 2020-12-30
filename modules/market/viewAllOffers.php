@@ -61,7 +61,7 @@ if (isset($_POST['itemId'])
                         ?>
 
                     </select>
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" name="viewOffer" class="btn btn-default form-control" value="Afficher l'offre">
                 </form>
         

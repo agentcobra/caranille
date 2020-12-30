@@ -36,8 +36,8 @@ if (isset($_POST['accountCode'])
             <form method="POST" action="../../modules/forgetPassword/changePasswordEnd.php">
                 Mot de passe : <input type="password" class="form-control" name="accountPassword" required>
                 Confirmez : <input type="password" class="form-control" name="accountPasswordConfirm" required>
-                <input type="hidden" class="btn btn-secondary btn-lg" name="accountCode" value="<?php echo $accountCode ?>">
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="accountCode" value="<?php echo $accountCode ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" name="changePasswordEnd" class="btn btn-default form-control" value="Se connecter">
             </form>
 

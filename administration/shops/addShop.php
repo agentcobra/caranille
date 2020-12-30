@@ -28,7 +28,7 @@ if (isset($_POST['token'])
             Image : <input type="text" name="adminShopPicture" class="form-control" placeholder="Image" value="../../img/empty.png" required>
             Nom : <input type="text" name="adminShopName" class="form-control" placeholder="Nom" required>
             Description : <br> <textarea class="form-control" name="adminShopDescription" id="adminShopDescription" rows="3" required></textarea>
-            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
             <input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
         </form>
         

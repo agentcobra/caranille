@@ -10,7 +10,7 @@ Ses informations vous ont été envoyée par Email à l'adresse indiquée lors d
 <form method="POST" action="verifyRegistration.php">
     Adresse Email : <input type="email" class="form-control" name="accountEmail" required>
     Code reçu : <input type="number" class="form-control" name="codeAccountVerification" required>
-    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="register" value="Je valide mon inscription">
 </form>
 

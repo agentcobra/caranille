@@ -40,7 +40,7 @@ if (isset($_POST['secretAnswer'])
                 <form method="POST" action="changeSecretQuestionVerifyEnd.php">
                     Question : <input type="text" class="form-control" name="secretQuestion" maxlength="100" required>
                     Réponse : <input type="text" class="form-control" name="secretAnswer" maxlength="100" required>
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" name="editEnd" class="btn btn-default form-control" value="Créer la question secrête"><br>
                 </form>
             
@@ -55,7 +55,7 @@ if (isset($_POST['secretAnswer'])
                 <hr>
             
                 <form method="POST" action="index.php">
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" name="back" class="btn btn-default form-control" value="Retour"><br>
                 </form>
             
@@ -71,7 +71,7 @@ if (isset($_POST['secretAnswer'])
             <hr>
 
             <form method="POST" action="index.php">
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" name="back" class="btn btn-default form-control" value="Retour"><br>
             </form>
 

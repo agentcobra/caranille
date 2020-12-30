@@ -92,7 +92,7 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                                 
                             <form method="POST" action="manageMonsterDrop.php">
                                 <input type="hidden" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-default form-control" name="manage" value="Continuer">
                             </form>
                             
@@ -128,7 +128,7 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                 
                 <form method="POST" action="manageMonsterDrop.php">
                     <input type="hidden" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="manage" value="Continuer">
                 </form>
                 

@@ -60,8 +60,8 @@ if (isset($_POST['modoAccountId'])
                     <hr>
                         
                     <form method="POST" action="unbanAccountEnd.php">
-                        <input type="hidden" class="btn btn-secondary btn-lg" name="modoAccountId" value="<?php echo $modoAccountId ?>">
-                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-default form-control" name="modoAccountId" value="<?php echo $modoAccountId ?>">
+                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" class="btn btn-default form-control" name="unbanEnd" value="Je confirme le débanissement">
                     </form>
                     

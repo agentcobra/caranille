@@ -73,7 +73,7 @@ if (isset($_POST['tradeId'])
                         </select>
                         Quantité: <input type="number" name="tradeItemQuantity" class="form-control" placeholder="Quantité" value="1" required>
                         <input type="hidden" name="tradeId" value="<?php echo $tradeId ?>">
-                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" name="addTradeItemEnd" class="btn btn-default form-control" value="Ajouter cet équipement/objet">
                     </form>
                     

@@ -76,7 +76,7 @@ if (isset($_POST['accountPseudo'])
             <hr>
 
             <form method="POST" action="enterCode.php">
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" name="enterCode" class="btn btn-default form-control" value="Saisir le code">
             </form>
                 

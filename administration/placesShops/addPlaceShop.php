@@ -88,9 +88,9 @@ if (isset($_POST['adminplaceShopPlaceId'])
                         <hr>
                             
                         <form method="POST" action="addPlaceShopEnd.php">
-                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
-                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminPlaceShopShopId" value="<?php echo $adminPlaceShopShopId ?>">
-                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-default form-control" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
+                            <input type="hidden" class="btn btn-default form-control" name="adminPlaceShopShopId" value="<?php echo $adminPlaceShopShopId ?>">
+                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-default form-control" name="finalAdd" value="Je confirme">
                         </form>
                         
@@ -111,7 +111,7 @@ if (isset($_POST['adminplaceShopPlaceId'])
                         
                         <form method="POST" action="managePlaceShop.php">
                             <input type="hidden" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
-                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-default form-control" name="manage" value="Retour">
                         </form>
                         

@@ -57,8 +57,8 @@ if (isset($_POST['adminItemId'])
                 <hr>
                     
                 <form method="POST" action="editEquipment.php">
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminItemId" value="<?php echo $adminItemId ?>">
-                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="adminItemId" value="<?php echo $adminItemId ?>">
+                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier l'équipement">
                 </form>
 

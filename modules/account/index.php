@@ -20,7 +20,7 @@ Accès : <?php echo $accountAccess ?><br />
 <hr>
 
 <form method="POST" action="changePassword.php">
-    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" name="changePassword" class="btn btn-default form-control" value="Changer le mot de passe"><br>
 </form>
 

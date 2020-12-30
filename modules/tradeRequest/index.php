@@ -15,17 +15,17 @@ Ici vous allez pouvoir proposer ou reçevoir des demandes d'échanges des joueur
 <hr>
 
 <form method="POST" action="tradeRequestSent.php">
-    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="viewTrade" value="Demandes d'échange envoyée">
 </form>
 
 <form method="POST" action="tradeRequestReceived.php">
-    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="viewTrade" value="Demandes d'échange reçue">
 </form>
 
 <form method="POST" action="tradeRequest.php">
-    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="newTrade" value="Nouvelle demande d'échange">
 </form>
 

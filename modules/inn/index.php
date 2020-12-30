@@ -18,7 +18,7 @@ Bienvenue à l'auberge, ici vous allez pouvoir vous reposer pour <?php echo $pla
 <hr>
 
 <form method="POST" action="sleep.php">
-    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" name="sleep" class="btn btn-default form-control" value="Se reposer">
 </form>
 

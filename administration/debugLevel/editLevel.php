@@ -38,8 +38,8 @@ if (isset($_POST['adminCharacterLevel'])
             <hr>
                 
             <form method="POST" action="editLevelEnd.php">
-                <input type="hidden" class="btn btn-secondary btn-lg" name="adminCharacterLevel" value="<?php echo $adminCharacterLevel ?>">
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="adminCharacterLevel" value="<?php echo $adminCharacterLevel ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" class="btn btn-default form-control" name="finalEdit" value="Je confirme">
             </form>
             

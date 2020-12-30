@@ -63,7 +63,7 @@ if (isset($_POST['token']))
                     ?>
         
                 </select>
-                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" name="acceptTradeRequest" class="btn btn-default form-control" value="Accepter la demande">
                 <input type="submit" name="declineTradeRequest" class="btn btn-default form-control" value="Refuser la demande">
             </form>
