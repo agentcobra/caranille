@@ -41,7 +41,7 @@ require_once("../../html/header.php");
     </select>
     Nom du personnage : <input type="text" class="form-control" name="characterName" required><br />
     <iframe src="../../CGU.txt" width="100%" height="100%"></iframe>
-    En vous inscrivant vous acceptez le présent règlement !
+    En vous inscrivant vous acceptez le présent règlement !<br />
     <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-secondary btn-lg" name="register" value="Je créer mon compte">
 </form>
