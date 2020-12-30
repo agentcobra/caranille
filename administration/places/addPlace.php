@@ -34,7 +34,7 @@ if (isset($_POST['token'])
                 <option value="Yes">Oui</option>
                 <option value="No">Non</option>
             </select>
-            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
             <input name="finalAdd" class="btn btn-default form-control" type="submit" value="Ajouter">
         </form>
         

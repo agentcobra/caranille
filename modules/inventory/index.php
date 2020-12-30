@@ -14,21 +14,21 @@ Que souhaitez-vous consulter ?<br />
 <hr>
 
 <form method="POST" action="../../modules/inventoryEquipments/index.php">
-    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="delete" value="Mes équipements">
 </form>
 
 <hr>
 
 <form method="POST" action="../../modules/inventoryItems/index.php">
-    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="edit" value="Mes objets">
 </form>
 
 <hr>
 
 <form method="POST" action="../../modules/inventoryParchments/index.php">
-    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" class="btn btn-default form-control" name="edit" value="Mes parchemins">
 </form>
 

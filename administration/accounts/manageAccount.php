@@ -51,8 +51,8 @@ if (isset($_POST['adminAccountId'])
                 <hr>
                     
                 <form method="POST" action="editAccount.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminAccountId" value="<?php echo $adminAccountId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminAccountId" value="<?php echo $adminAccountId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier le compte">
                 </form>
 

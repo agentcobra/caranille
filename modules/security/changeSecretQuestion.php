@@ -21,7 +21,7 @@ if ($accountSecretQuestion != "" && $accountSecretAnswer != "")
 
     <form method="POST" action="changeSecretQuestionVerify.php">
         Réponse : <input type="text" class="form-control" name="secretAnswer" maxlength="100" required>
-        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
         <input type="submit" name="edit" class="btn btn-default form-control" value="Modifier la question secrête"><br>
     </form>
 
@@ -36,7 +36,7 @@ else
     <hr>
 
     <form method="POST" action="index.php">
-        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
         <input type="submit" name="back" class="btn btn-default form-control" value="Retour"><br>
     </form>
 

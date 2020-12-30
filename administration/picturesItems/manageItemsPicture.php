@@ -72,8 +72,8 @@ else if (isset($_POST['token'])
             <hr>
                 
             <form method="POST" action="deleteItemsPicture.php">
-                <input type="hidden" class="btn btn-default form-control" name="pictureFile" value="<?php echo $adminFile ?>">
-                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-secondary btn-lg" name="pictureFile" value="<?php echo $adminFile ?>">
+                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme la suppression">
             </form>
             

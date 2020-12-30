@@ -51,13 +51,13 @@ if (isset($_POST['adminShopId'])
                 <hr>
                     
                 <form method="POST" action="editShop.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminShopId" value="<?php echo $adminShopId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminShopId" value="<?php echo $adminShopId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier le magasin">
                 </form>
                 <form method="POST" action="../shopsItems/manageShopItem.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminShopItemShopId" value="<?php echo $adminShopId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminShopItemShopId" value="<?php echo $adminShopId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="manage" value="Article(s) du magasin">
                 </form>
                 

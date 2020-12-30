@@ -51,18 +51,18 @@ if (isset($_POST['adminMonsterId'])
                 <hr>
                     
                 <form method="POST" action="editMonster.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminMonsterId" value="<?php echo $adminMonsterId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterId" value="<?php echo $adminMonsterId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="edit" value="Afficher/Modifier le monstre">
                 </form>
                 <form method="POST" action="../monstersDrops/manageMonsterDrop.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="manage" value="Objet(s) du monstre">
                 </form>
                 <form method="POST" action="../monstersBattlesStats/manageMonsterStatsLight.php">
-                    <input type="hidden" class="btn btn-default form-control" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterStatsMonsterId" value="<?php echo $adminMonsterId ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="viewStats" value="Statistiques de combat">
                 </form>
 

@@ -71,7 +71,7 @@ if (isset($_POST['adminplaceShopPlaceId'])
                             
                         </select>
                         <input type="hidden" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" name="delete" class="btn btn-default form-control" value="Retirer le magasin">
                     </form>
                     
@@ -113,7 +113,7 @@ if (isset($_POST['adminplaceShopPlaceId'])
                             </select>
                         
                         <input type="hidden" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
-                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" name="add" class="btn btn-default form-control" value="Ajouter le magasin">
                     </form>
                     

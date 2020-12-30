@@ -56,7 +56,7 @@ if (isset($_POST['token'])
                     
                 </select>
                 Prix de vente : <input type="number" name="marketSalePrice" class="form-control" placeholder="Prix de vente" value="0" required>
-                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                 <input type="submit" name="addOffer" class="btn btn-default form-control" value="Créer une offre">
             </form>
             

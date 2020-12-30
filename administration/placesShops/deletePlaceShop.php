@@ -83,9 +83,9 @@ if (isset($_POST['adminplaceShopPlaceId'])
                         <hr>
                             
                         <form method="POST" action="deletePlaceShopEnd.php">
-                            <input type="hidden" class="btn btn-default form-control" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="adminPlaceShopShopId" value="<?php echo $adminPlaceShopShopId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminplaceShopPlaceId" value="<?php echo $adminplaceShopPlaceId ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminPlaceShopShopId" value="<?php echo $adminPlaceShopShopId ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme">
                         </form>
                 

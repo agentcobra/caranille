@@ -322,8 +322,8 @@ if (isset($_POST['accountPseudo'])
                                     <hr>
                 
                                     <form method="POST" action="step-4.php">
-                                        <input type="hidden" class="btn btn-default form-control" name="installationType" value="retry">
-                                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                        <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
+                                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                         <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
                                     </form>
                 
@@ -341,8 +341,8 @@ if (isset($_POST['accountPseudo'])
                                 <hr>
             
                                 <form method="POST" action="step-4.php">
-                                    <input type="hidden" class="btn btn-default form-control" name="installationType" value="retry">
-                                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                    <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
+                                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                     <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
                                 </form>
             
@@ -359,8 +359,8 @@ if (isset($_POST['accountPseudo'])
                             <hr>
 
                             <form method="POST" action="step-4.php">
-                                <input type="hidden" class="btn btn-default form-control" name="installationType" value="retry">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" name="continue" class="btn btn-default form-control" value="Recommencer">
                             </form>
 
@@ -377,8 +377,8 @@ if (isset($_POST['accountPseudo'])
                         <hr>
 
                         <form method="POST" action="step-4.php">
-                            <input type="hidden" class="btn btn-default form-control" name="installationType" value="retry">
-                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
                         </form>
 
@@ -395,8 +395,8 @@ if (isset($_POST['accountPseudo'])
                     <hr>
     
                     <form method="POST" action="step-4.php">
-                        <input type="hidden" class="btn btn-default form-control" name="installationType" value="retry">
-                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
+                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                         <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
                     </form>
     
@@ -413,8 +413,8 @@ if (isset($_POST['accountPseudo'])
                 <hr>
 
                 <form method="POST" action="step-4.php">
-                    <input type="hidden" class="btn btn-default form-control" name="installationType" value="retry">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="installationType" value="retry">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" name="retry" class="btn btn-default form-control" value="Recommencer">
                 </form>
 

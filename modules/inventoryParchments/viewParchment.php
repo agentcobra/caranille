@@ -200,13 +200,13 @@ if (isset($_POST['itemId'])
                                 <td>
                                     <form method="POST" action="useParchment.php">
                                         <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
-                                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                         <input type="submit" class="btn btn-default form-control" name="use" value="Utiliser">
                                     </form>
                                     <form method="POST" action="../../modules/inventory/sale.php">
                                         Quantité à vendre : <input type="number" name="saleQuantity" value="1" class="form-control" required>
                                         <input type="hidden" name="itemId" value="<?php echo $itemId ?>">
-                                        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                         <input type="submit" class="btn btn-default form-control" name="sale" value="Vendre">
                                     </form>
                                 </td>
@@ -216,7 +216,7 @@ if (isset($_POST['itemId'])
                         <hr>
             
                         <form method="POST" action="index.php">
-                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-default form-control" value="Retour">
                         </form>
                         

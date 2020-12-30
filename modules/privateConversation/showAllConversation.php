@@ -189,7 +189,7 @@ if (isset($_POST['privateConversationId'])
                 
                 <form method="POST" action="showConversation.php">
                     <input type="hidden" name="privateConversationId" value="<?php echo $privateConversationId ?>">
-                    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                     <input type="submit" class="btn btn-default form-control" name="showConversation" value="Retour à la conversation">
                 </form>
 

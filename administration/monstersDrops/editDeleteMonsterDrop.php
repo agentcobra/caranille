@@ -141,9 +141,9 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                                     ?>
                                 
                                 </select>
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-default form-control" name="finalEdit" value="Mettre à jour">
                             </form>
                             
@@ -162,9 +162,9 @@ if (isset($_POST['adminMonsterDropMonsterId'])
                             <hr>
                                 
                             <form method="POST" action="deleteMonsterDrop.php">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
-                                <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropMonsterId" value="<?php echo $adminMonsterDropMonsterId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="adminMonsterDropItemId" value="<?php echo $adminMonsterDropItemId ?>">
+                                <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                                 <input type="submit" class="btn btn-default form-control" name="finalDelete" value="Je confirme">
                             </form>
                     

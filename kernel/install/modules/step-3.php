@@ -86,7 +86,7 @@ if (isset($_POST['databaseName'])
 					<option value="fullInstall">Complète (avec exemples)</option>
 					<option value="minInstall">Minimale (sans exemples)</option>
 				</select>
-				<input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+				<input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
 		        <input type="submit" class="btn btn-default form-control" name="continuer" value="Continuer">
 		    </form>
 		    

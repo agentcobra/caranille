@@ -21,7 +21,7 @@ Accès : <?php echo $accountAccess ?><br />
 <hr>
 
 <form method="POST" action="changeEmail.php">
-    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" name="changeEmail" class="btn btn-default form-control" value="Changer l'adresse Email"><br>
 </form>
 
@@ -34,7 +34,7 @@ if ($accountSecretQuestion == "" && $accountSecretAnswer == "")
     ?>
 
     <form method="POST" action="addSecretQuestion.php">
-        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
         <input type="submit" name="addSecretQuestion" class="btn btn-default form-control" value="Créer une question secrète"><br>
     </form>
 
@@ -45,7 +45,7 @@ else
     ?>
 
     <form method="POST" action="changeSecretQuestion.php">
-        <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+        <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
         <input type="submit" name="changeSecretQuestion" class="btn btn-default form-control" value="Modifier la question secrète"><br>
     </form>
 
@@ -54,7 +54,7 @@ else
 ?>
 
 <form method="POST" action="../../modules/account/changePassword.php">
-    <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+    <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
     <input type="submit" name="changePassword" class="btn btn-default form-control" value="Changer le mot de passe"><br>
 </form>
 

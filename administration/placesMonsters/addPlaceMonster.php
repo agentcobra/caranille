@@ -89,9 +89,9 @@ if (isset($_POST['adminplaceMonsterPlaceId'])
                         <hr>
                             
                         <form method="POST" action="addPlaceMonsterEnd.php">
-                            <input type="hidden" class="btn btn-default form-control" name="adminplaceMonsterPlaceId" value="<?php echo $adminplaceMonsterPlaceId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="adminplaceMonsterMonsterId" value="<?php echo $adminplaceMonsterMonsterId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminplaceMonsterPlaceId" value="<?php echo $adminplaceMonsterPlaceId ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="adminplaceMonsterMonsterId" value="<?php echo $adminplaceMonsterMonsterId ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-default form-control" name="finalAdd" value="Je confirme">
                         </form>
                         
@@ -112,7 +112,7 @@ if (isset($_POST['adminplaceMonsterPlaceId'])
                         
                         <form method="POST" action="managePlaceMonster.php">
                             <input type="hidden" name="adminplaceMonsterPlaceId" value="<?php echo $adminplaceMonsterPlaceId ?>">
-                            <input type="hidden" class="btn btn-default form-control" name="token" value="<?php echo $_SESSION['token'] ?>">
+                            <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
                             <input type="submit" class="btn btn-default form-control" name="manage" value="Retour">
                         </form>
                         

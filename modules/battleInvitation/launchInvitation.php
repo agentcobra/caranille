@@ -57,7 +57,7 @@ if (isset($_POST['battleInvitationCharacterId'])
             <hr>
                 
             <form method="POST" action="launchInvitationEnd.php">
-                <input type="hidden" class="btn btn-default form-control" name="battleInvitationCharacterId" value="<?php echo $battleInvitationCharacterId ?>">
+                <input type="hidden" class="btn btn-secondary btn-lg" name="battleInvitationCharacterId" value="<?php echo $battleInvitationCharacterId ?>">
                 <input type="submit" class="btn btn-default form-control" name="launch" value="Lancer le combat">
             </form>
             
