@@ -40,7 +40,7 @@ if ($accountUnBanRow > 0)
             </select>
             Raison du ban <input type="text" name="modoBanReason" class="form-control" required>
             <input type="hidden" class="btn btn-secondary btn-lg" name="token" value="<?php echo $_SESSION['token'] ?>">
-            <input type="submit" name="ban" class="btn btn-default form-control" value="Bannir le compte">
+            <input type="submit" class="btn btn-secondary btn-lg" name="ban" value="Bannir le compte">
         </form>
         
     <?php
