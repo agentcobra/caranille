@@ -25,10 +25,10 @@
 			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sanctions</a>
-						<div class="dropdown-menu" aria-labelledby="dropdown01">
-							<a class="dropdown-item" href="../../moderation/ban/index.php">Bannir/Débannir</a>
-						</div>
+						<a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Sanctions</a>
+						<ul class="dropdown-menu" aria-labelledby="dropdown08">
+							<li><a class="dropdown-item" href="../../moderation/ban/index.php">Bannir/Débannir</a></li>
+						</ul>
 					</li>
 				</ul>
 				<ul class="navbar-nav pull-right"> 
