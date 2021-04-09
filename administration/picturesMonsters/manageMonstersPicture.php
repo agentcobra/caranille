@@ -39,7 +39,7 @@ if (isset($_POST['token'])
     //Si le token de sécurité n'est pas correct
     else
     {
-        echo "Erreur : Impossible de valider le formulaire, veuillez réessayer";
+        echo "Erreur : La session a expirée, veuillez réessayer";
     }
 }
 else if (isset($_POST['token'])
@@ -103,7 +103,7 @@ else if (isset($_POST['token'])
     //Si le token de sécurité n'est pas correct
     else
     {
-        echo "Erreur : Impossible de valider le formulaire, veuillez réessayer";
+        echo "Erreur : La session a expirée, veuillez réessayer";
     }
 }
 //Si toutes les variables $_POST n'existent pas

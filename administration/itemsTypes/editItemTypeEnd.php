@@ -73,7 +73,7 @@ if (isset($_POST['adminItemTypeId'])
     //Si le token de sécurité n'est pas correct
     else
     {
-        echo "Erreur : Impossible de valider le formulaire, veuillez réessayer";
+        echo "Erreur : La session a expirée, veuillez réessayer";
     }
 }
 //Si tous les champs n'ont pas été rempli
