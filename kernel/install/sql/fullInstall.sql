@@ -10,16 +10,28 @@ INSERT INTO `car_configuration` (`configurationId`, `configurationGameName`, `co
 --
 
 INSERT INTO `car_items` (`itemId`, `itemItemTypeId`, `itemRaceId`, `itemPicture`, `itemName`, `itemDescription`, `itemLevel`, `itemLevelRequired`, `itemHpEffect`, `itemMpEffect`, `itemStrengthEffect`, `itemMagicEffect`, `itemAgilityEffect`, `itemDefenseEffect`, `itemDefenseMagicEffect`, `itemWisdomEffect`, `itemProspectingEffect`, `itemPurchasePrice`, `itemSalePrice`) VALUES
-(1, 6, 0, '../../img/empty.png', 'Potion (1*)', 'Cette potion vous rendra des HP', 1, 1, 100, 0, 0, 0, 0, 0, 0, 0, 0, 100, 50),
-(2, 7, 0, '../../img/empty.png', 'Parchemin de vitalité', 'Octroi +10 HP', 1, 1, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
-(3, 7, 0, '../../img/empty.png', 'Parchemin de MP', 'Octroi +1 MP', 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
-(4, 7, 0, '../../img/empty.png', 'Parchemin de force', 'Octroi +1 en force', 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5000),
-(5, 7, 0, '../../img/empty.png', 'Parchemin de magie', 'Octroi +1 en magie', 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 5000),
-(6, 7, 0, '../../img/empty.png', 'Parchemin d\\\'agilité', 'Octroi +1 en agilité', 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5000),
-(7, 7, 0, '../../img/empty.png', 'Parchemin de défense', 'Octroi +1 en défense', 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5000),
-(8, 7, 0, '../../img/empty.png', 'Parchemin de défense magique', 'Octroi +1 en défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5000),
-(9, 7, 0, '../../img/empty.png', 'Parchemin de sagesse', 'Octroi +1 en sagesse', 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5000),
-(10, 7, 0, '../../img/empty.png', 'Parchemin de prospection', 'Octroi +1 en prospection', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5000);
+INSERT INTO `car_items` (`itemId`, `itemItemTypeId`, `itemRaceId`, `itemPicture`, `itemName`, `itemDescription`, `itemLevel`, `itemLevelRequired`, `itemHpEffect`, `itemMpEffect`, `itemStrengthEffect`, `itemMagicEffect`, `itemAgilityEffect`, `itemDefenseEffect`, `itemDefenseMagicEffect`, `itemWisdomEffect`, `itemProspectingEffect`, `itemPurchasePrice`, `itemSalePrice`) VALUES
+(1, 1, 0, '../../img/empty.png', 'Armure de cuivre', 'Cette armure vous donnera un peu de défense', 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 100, 50),
+(2, 1, 0, '../../img/empty.png', 'Cape de lin', 'Cette cape vous donnera un peu de défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 100, 50),
+(3, 2, 0, '../../img/empty.png', 'Bottes de cuivre', 'Ses bottes vous donneront un peu de défense', 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 100, 50),
+(4, 2, 0, '../../img/empty.png', 'Botte de lin', 'Ses bottes vous donnerons un peu de défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 100, 50),
+(5, 3, 0, '../../img/empty.png', 'Gants de cuivre', 'Ses gants de cuivre vous donnerons un peu de défense', 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 100, 50),
+(6, 3, 0, '../../img/empty.png', 'Gants de lin', 'Ses gants vous donneront un peu de défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 100, 50),
+(7, 4, 0, '../../img/empty.png', 'Casque de cuivre', 'Ce casque de cuivre vous donnera un peu de défense', 1, 1, 0, 0, 0, 0, 0, 2, 0, 0, 0, 100, 50),
+(8, 4, 0, '../../img/empty.png', 'Chapeau de lin', 'Ce chapeau de lin vous donnera un peu de défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 2, 0, 0, 100, 50),
+(9, 5, 0, '../../img/empty.png', 'Epée de cuivre', 'Cette épée de cuivre vous donnera un peu de force', 1, 1, 0, 0, 2, 0, 0, 0, 0, 0, 0, 100, 50),
+(10, 5, 0, '../../img/empty.png', 'Baton de bois', 'Ce bâton de bois vous donnera un peu de magie', 1, 1, 0, 0, 0, 2, 0, 0, 0, 0, 0, 100, 50),
+(11, 6, 0, '../../img/empty.png', 'Potion (1*)', 'Cette potion vous rendra des HP', 1, 1, 100, 0, 0, 0, 0, 0, 0, 0, 0, 100, 50),
+(12, 6, 0, '../../img/empty.png', 'Ether (1*)', 'Cet éther vous rendra des MP', 1, 1, 0, 5, 0, 0, 0, 0, 0, 0, 0, 100, 50),
+(13, 7, 0, '../../img/empty.png', 'Parchemin de vitalité', 'Octroi +10 HP', 1, 1, 10, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
+(14, 7, 0, '../../img/empty.png', 'Parchemin de MP', 'Octroi +1 MP', 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 5000),
+(15, 7, 0, '../../img/empty.png', 'Parchemin de force', 'Octroi +1 en force', 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 5000),
+(16, 7, 0, '../../img/empty.png', 'Parchemin de magie', 'Octroi +1 en magie', 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 5000),
+(17, 7, 0, '../../img/empty.png', 'Parchemin d\\\'agilité', 'Octroi +1 en agilité', 1, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 5000),
+(18, 7, 0, '../../img/empty.png', 'Parchemin de défense', 'Octroi +1 en défense', 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 5000),
+(19, 7, 0, '../../img/empty.png', 'Parchemin de défense magique', 'Octroi +1 en défense magique', 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 5000),
+(20, 7, 0, '../../img/empty.png', 'Parchemin de sagesse', 'Octroi +1 en sagesse', 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 5000),
+(21, 7, 0, '../../img/empty.png', 'Parchemin de prospection', 'Octroi +1 en prospection', 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 5000);
 --
 -- Contenu de la table `car_items_types`
 --
