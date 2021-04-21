@@ -82,8 +82,7 @@ if (isset($_POST['adminMonsterId'])
                         
                         <?php
                         //On rempli le menu déroulant avec la liste des classes disponible
-                        $monsterCategoryQuery = $bdd->prepare("SELECT * FROM car_monsters_categories");
-                        $monsterCategoryQuery->execute([$adminMonsterCategoryId]);
+                        $monsterCategoryQuery = $bdd->query("SELECT * FROM car_monsters_categories");
                         
                         //On fait une boucle sur le ou les résultats obtenu pour récupérer les informations
                         while ($monsterCategory = $monsterCategoryQuery->fetch())

@@ -136,14 +136,12 @@ if (isset($_POST['adminItemId'])
                     </select>
                     Image : <input type="mail" name="adminItemPicture" class="form-control" placeholder="Image" value="<?php echo $adminItemPicture ?>" required>
                     Type <select name="adminItemItemTypeId" class="form-control">
-                    
                         
                         <?php
                         //On rempli le menu déroulant avec la liste des classes disponible
-                        $itemTypeQuery = $bdd->prepare("SELECT * FROM car_items_types
+                        $itemTypeQuery = $bdd->query("SELECT * FROM car_items_types
                         WHERE itemTypeName != 'Item'
                         AND itemTypeName != 'Parchment'");
-                        $itemTypeQuery->execute([$adminItemItemTypeId]);
                         
                         //On fait une boucle sur le ou les résultats obtenu pour récupérer les informations
                         while ($itemType = $itemTypeQuery->fetch())
